@@ -63,7 +63,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cuboid.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="Lake.cpp" />
+    <ClCompile Include="Lighting.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
+    <ClCompile Include="Outside.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Cuboid.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Lake.h" />
+    <ClInclude Include="Lighting.h" />
+    <ClInclude Include="Model_3DS.h" />
+    <ClInclude Include="Outside.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
